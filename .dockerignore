@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Node modules
+node_modules
+website/node_modules
+
+# Build artifacts
+website/dist
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+test/
+*_test.go
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Development files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+*.out
+coverage.txt
+
+# Docker files (avoid recursive copying)
+Dockerfile
+.dockerignore
+
+# Examples and documentation
+examples/
+docs/

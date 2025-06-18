@@ -1,0 +1,22 @@
+{
+  "name": "MiniAuth",
+  "short_name": "MiniAuth", 
+  "description": "Lightweight OAuth2 authentication service",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icon-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/miniauth-icon.svg", 
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
